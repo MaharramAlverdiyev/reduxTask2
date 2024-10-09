@@ -1,0 +1,240 @@
+* {
+    margin: 0 !important;
+    padding: 0 ;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-center {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.up-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #cecece;
+}
+
+.up-header li a {
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+}
+
+.about nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.wishlist-icons nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.wishlist-icons {
+    display: flex;
+    gap: 30px;
+}
+
+.wishlist-icons .icons {
+    display: flex;
+    gap: 20px;
+    color: #74706B;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.wishlist-icons .icons a:hover {
+    color: #FF2020 !important;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -webkit-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+}
+
+.wishlist-icons li {
+    border-right: 1px solid #cecece;
+    padding-right: 20px;
+}
+
+.downheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.down-nav nav ul {
+    display: flex;
+    gap: 3rem;
+}
+
+.down-nav li a {
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    color: #141517;
+    font-weight: 600; 
+}
+
+.down-nav li{
+    height: 6rem;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.down-nav li a:hover {
+    color: #FF2020 ;
+    transition: all .4s ease-out 0s;
+}
+
+.search-store {
+    display: flex;
+    gap: 25px;
+    font-size: 24px;
+
+}
+
+li a {
+    color: black;
+}
+
+#down-arrow {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.search-store a:hover {
+    color: #FF2020 !important;
+    transition: all .4s ease-out 0s;    
+}
+
+.search-store a {
+    color: black;
+}
+
+.cartShopping {
+    position: relative !important;
+}
+
+.message {
+    position: absolute !important;
+    width: 18px;
+    height: 18px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    bottom: 70%;
+    left: 70%;
+    text-align: center !important;
+    font-size: 13px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.baby-col {
+    position: relative !important;
+}
+
+#message {
+    font-size: 30px;
+    color: #FF2020;
+
+}
+
+.baby-message {
+    position: absolute !important;
+    right: -5%;
+    bottom: 55%;
+}
+
+#new {
+    position: absolute !important;
+    bottom: 35%;
+    font-size: 13px;
+    color: white;
+    left: 7%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 999 !important;
+}
+.dropdown-pages {
+    position: absolute !important;
+    left:-60%;
+    top: 90px;
+    gap: 5px;
+    width:160px;
+    border-top:2px solid red;
+    display: none;
+    background: #fff;
+   
+}
+
+
+.dropdown-pages a {
+    padding: 6px 10px;
+    font-size: 16px;
+    color: #292621;
+    text-transform: capitalize;
+    font-family: "Jost",sans-serif;
+    font-weight: 600;
+    display: block;
+}
+.dropdown-pages a:hover{
+    color: #FF2020;
+    -webkit-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+   
+}
+.dropdown:hover .dropdown-pages {
+    display: block;
+    
+}
+
+.dropdown-blog {
+    position: relative;
+    display: inline-block;
+    z-index: 999 !important;
+}
+.blog-pages {
+    position: absolute;
+    left:-60%;
+    top: 90px;
+    gap: 5px;
+    width:160px;
+    border-top:2px solid red;
+    display: none;
+    background: #fff;
+
+}
+.blog-pages a {
+    padding: 6px 10px;
+    font-size: 16px;
+    color: #292621;
+    text-transform: capitalize;
+    font-family: "Jost",sans-serif;
+    font-weight: 600;
+    display: block;
+}
+.blog-pages a:hover{
+    color: #FF2020;
+    -webkit-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+   
+}
+.dropdown-blog:hover .blog-pages {
+    display: block;
+    
+}
